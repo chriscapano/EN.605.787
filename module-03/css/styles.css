@@ -1,0 +1,9 @@
+.mobile-border {
+    list-style-position:inside;
+    border: 1px solid black;
+    border-bottom: none;
+}
+
+.mobile-border-bottom {
+    border-bottom: 1px solid black;
+}
