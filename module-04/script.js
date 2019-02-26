@@ -28,38 +28,48 @@ assignment.
 WARNING!!! WARNING!!!
 
 */
+(function () {
 
-// STEP 1:
-// Wrap the entire contents of script.js inside of an IIFE
-// See Lecture 52, part 2
-// (Note, Step 2 will be done in the SpeakHello.js file.)
+    var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
 
-var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
+    console.log('--- Coursera Assignment ---');
+    for (var i = 0; i < names.length; i++) {
+        var firstLetter = startsWithJ(names[i]);
+        if (firstLetter === 'j') {
+            byeSpeaker.speak(names[i]);
+        } else {
+            helloSpeaker.speak(names[i]);
+        }
+    }
 
-// STEP 10:
-// Loop over the names array and say either 'Hello' or "Good Bye"
-// using the 'speak' method or either helloSpeaker's or byeSpeaker's
-// 'speak' method.
-// See Lecture 50, part 1
-for (/* fill in parts of the 'for' loop to loop over names array */) {
+    console.log('--- Array.prototype.map ---');
+    var mappedArray = names.map(mapCallBack);
+    mappedArray.forEach(log);
 
-  // STEP 11:
-  // Retrieve the first letter of the current name in the loop.
-  // Use the string object's 'charAt' function. Since we are looking for
-  // names that start with either upper case or lower case 'J'/'j', call
-  // string object's 'toLowerCase' method on the result so we can compare
-  // to lower case character 'j' afterwards.
-  // Look up these methods on Mozilla Developer Network web site if needed.
-  // var firstLetter =
+    console.log('--- Array.prototype.reduce ---');
+    var reducedArray = names.reduce(reduceCallBack, {hello: [], bye: []});
+    reducedArray.hello.forEach(log);
+    reducedArray.bye.forEach(log);
 
-  // STEP 12:
-  // Compare the 'firstLetter' retrieved in STEP 11 to lower case
-  // 'j'. If the same, call byeSpeaker's 'speak' method with the current name
-  // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
-  // name in the loop.
-  if (/* fill in condition here */) {
-    // byeSpeaker.xxxx
-  } else {
-    // helloSpeaker.xxxx
-  }
-}
+    function startsWithJ(name) {
+        return name.charAt(0).toLocaleLowerCase().startsWith("j");
+    }
+
+    function log(value) {
+        console.log(value);
+    }
+
+    function mapCallBack(name) {
+        return startsWithJ(name) ? byeSpeaker.speakSimple(name) : helloSpeaker.speakSimple(name);
+    }
+
+    function reduceCallBack(accumulator, currentValue) {
+        if (startsWithJ(currentValue)) {
+            accumulator.bye.push(byeSpeaker.speakSimple(currentValue))
+        } else {
+            accumulator.hello.push(helloSpeaker.speakSimple(currentValue))
+        }
+
+        return accumulator;
+    }
+})();
