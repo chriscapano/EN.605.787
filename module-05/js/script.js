@@ -14,6 +14,7 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
 var dc = {};
 
 var homeHtmlUrl = "snippets/home-snippet.html";
+var aboutHtmlUrl = "snippets/about-snippet.html";
 var allCategoriesUrl =
   "https://davids-restaurant.herokuapp.com/categories.json";
 var categoriesTitleHtml = "snippets/categories-title-snippet.html";
@@ -46,17 +47,22 @@ var insertProperty = function (string, propName, propValue) {
 };
 
 // Remove the class 'active' from home and switch to Menu button
-var switchMenuToActive = function () {
-  // Remove 'active' from home button
-  var classes = document.querySelector("#navHomeButton").className;
-  classes = classes.replace(new RegExp("active", "g"), "");
-  document.querySelector("#navHomeButton").className = classes;
+var switchMenuToActive = function (activeMenu) {
+  var navButtons = ["navHomeButton", "navAboutButton", "navMenuButton"];
+  navButtons.forEach(function(value) {
+    // Remove 'active' from button
+    var selector = "#" + value;
+    var classes = document.querySelector(selector).className;
+    classes = classes.replace(new RegExp("active", "g"), "");
+    document.querySelector(selector).className = classes;
+  });
 
   // Add 'active' to menu button if not already there
-  classes = document.querySelector("#navMenuButton").className;
+  var activeSelector = "#" + activeMenu;
+  var classes = document.querySelector(activeSelector).className;
   if (classes.indexOf("active") === -1) {
     classes += " active";
-    document.querySelector("#navMenuButton").className = classes;
+    document.querySelector(activeSelector).className = classes;
   }
 };
 
@@ -147,6 +153,27 @@ dc.loadMenuCategories = function () {
     buildAndShowCategoriesHTML);
 };
 
+dc.loadAboutPage = function buildAndShowCategoriesHTML () {
+    // Load title snippet of categories page
+    $ajaxUtils.sendGetRequest(
+        aboutHtmlUrl,
+        function (aboutHtml) {
+
+          // Switch CSS class active to menu button
+          switchMenuToActive("navAboutButton");
+
+          var numberOfStars = getRandomStars();
+          var aboutInsertHtml = insertProperty(aboutHtml, "star", numberOfStars);
+          insertHtml("#main-content", aboutInsertHtml);
+
+          var spanTags = document.querySelector("#main-content").querySelector("div").querySelectorAll("span");
+          spanTags.forEach(function(value, index){
+            value.className = index < numberOfStars ? "fa fa-star" : "fa fa-star-o";
+          });
+        },
+        false);
+};
+
 
 // Load the menu items view
 // 'categoryShort' is a short_name for a category
@@ -157,6 +184,9 @@ dc.loadMenuItems = function (categoryShort) {
     buildAndShowMenuItemsHTML);
 };
 
+function getRandomStars() {
+  return Math.floor(Math.random() * 5) + 1;
+}
 
 // Builds HTML for the categories page based on the data
 // from the server
@@ -170,7 +200,7 @@ function buildAndShowCategoriesHTML (categories) {
         categoryHtml,
         function (categoryHtml) {
           // Switch CSS class active to menu button
-          switchMenuToActive();
+          switchMenuToActive("navMenuButton");
 
           var categoriesViewHtml =
             buildCategoriesViewHtml(categories,
@@ -226,7 +256,7 @@ function buildAndShowMenuItemsHTML (categoryMenuItems) {
         menuItemHtml,
         function (menuItemHtml) {
           // Switch CSS class active to menu button
-          switchMenuToActive();
+          switchMenuToActive("navMenuButton");
 
           var menuItemsViewHtml =
             buildMenuItemsViewHtml(categoryMenuItems,
