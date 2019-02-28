@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fc0c7e5-83a7-4f17-8c17-d8eb47918c61" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/module-05/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/module-05/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-05/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/module-05/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +13,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module-05/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="327">
               <caret line="162" column="44" selection-start-line="162" selection-start-column="44" selection-end-line="162" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="604">
+              <caret line="63" column="93" selection-start-line="63" selection-start-column="93" selection-end-line="63" selection-end-column="93" />
             </state>
           </provider>
         </entry>
@@ -94,7 +102,6 @@
         <option value="$PROJECT_DIR$/module-02/index.html" />
         <option value="$PROJECT_DIR$/module-03/css/styles.css" />
         <option value="$PROJECT_DIR$/module-03/index.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/module-04/SpeakGoodBye.js" />
         <option value="$PROJECT_DIR$/module-04/SpeakHello.js" />
         <option value="$PROJECT_DIR$/module-04/script.js" />
@@ -103,6 +110,7 @@
         <option value="$PROJECT_DIR$/module-05/index.html" />
         <option value="$PROJECT_DIR$/module-05/snippets/about-snippet.html" />
         <option value="$PROJECT_DIR$/module-05/js/script.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -242,12 +250,12 @@
       <workItem from="1550803506706" duration="2411000" />
       <workItem from="1551146647514" duration="3453000" />
       <workItem from="1551151603932" duration="472000" />
-      <workItem from="1551324230294" duration="5617000" />
+      <workItem from="1551324230294" duration="5795000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28373000" />
+    <option name="totallyTimeSpent" value="28551000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -367,13 +375,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="784">
-          <caret line="59" column="93" selection-start-line="59" selection-start-column="93" selection-end-line="59" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -483,6 +484,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="327">
           <caret line="162" column="44" selection-start-line="162" selection-start-column="44" selection-end-line="162" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="604">
+          <caret line="63" column="93" selection-start-line="63" selection-start-column="93" selection-end-line="63" selection-end-column="93" />
         </state>
       </provider>
     </entry>
