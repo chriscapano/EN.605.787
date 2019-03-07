@@ -11,9 +11,10 @@
      <h1>Lunch Checker</h1>
 
          <div class="form-group">
-             <input id="lunch-menu" type="text" ng-model="lunchOrder"
+             <input id="lunch-menu" type="text" ng-model="lunchOrder" aria-describedby="menuHelp"
              placeholder="list comma separated dishes you usually have for lunch"
              class="form-control" ng-class="neverClicked ? '' : orderValid ? 'border-valid' : 'border-invalid'">
+             <small id="menuHelp" class="form-text text-muted pull-right">Note: Empty items (, ,) do not count towards the total.</small>
          </div>
          <div class="form-group">
              <button class="btn btn-default" ng-click="onCheckOrderClicked()">Check If Too Much</button>
