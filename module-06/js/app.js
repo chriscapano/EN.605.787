@@ -22,7 +22,10 @@
                 var lunchItems = $scope.lunchOrder.split(',');
                 var reducedItems = lunchItems.reduce(reduceCallBack, {valid: 0, empty: 0});
 
-                if (reducedItems.valid <= 3) {
+                if (reducedItems.valid <= 0) {
+                    $scope.orderValid = false;
+                    $scope.checkerMessage = "Only Empty Items Entered!";
+                } else if (reducedItems.valid <= 3) {
                     $scope.checkerMessage = "Enjoy!";
                 } else {
                     $scope.checkerMessage = "Too Much!";
