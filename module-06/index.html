@@ -4,9 +4,7 @@
     <title>Lunch Checker</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles/bootstrap.min.css">
-    <style>
-      .message { font-size: 1.3em; font-weight: bold; }
-    </style>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
 <body ng-app="LunchCheck">
    <div class="container" ng-controller="LunchCheckController">
@@ -15,12 +13,12 @@
          <div class="form-group">
              <input id="lunch-menu" type="text" ng-model="lunchOrder"
              placeholder="list comma separated dishes you usually have for lunch"
-             class="form-control">
+             class="form-control" ng-class="neverClicked ? '' : orderValid ? 'border-valid' : 'border-invalid'">
          </div>
          <div class="form-group">
              <button class="btn btn-default" ng-click="onCheckOrderClicked()">Check If Too Much</button>
          </div>
-         <div class="form-group message">
+         <div class="form-group message" ng-class="orderValid ? 'message-valid' : 'message-invalid'">
            <!-- Your message can go here. -->
              {{checkerMessage}}
          </div>

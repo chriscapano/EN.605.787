@@ -1,0 +1,22 @@
+.message {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.message-valid {
+    color: #008000;
+}
+
+.message-invalid {
+    color: #FF0000;
+}
+
+.border-valid {
+    border-color: #008000;
+    border-width: 2px;
+}
+
+.border-invalid {
+    border-color: #FF0000;
+    border-width: 2px;
+}
