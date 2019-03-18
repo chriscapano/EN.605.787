@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fc0c7e5-83a7-4f17-8c17-d8eb47918c61" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-07/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/module-07/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,11 +13,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module-07/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="485">
-              <caret line="52" column="93" selection-start-line="52" selection-start-column="93" selection-end-line="52" selection-end-column="93" />
+            <state relative-caret-position="102">
+              <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module-07/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/module-07/styles/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module-06/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -67,6 +94,9 @@
         <option value="$PROJECT_DIR$/module-06/index.html" />
         <option value="$PROJECT_DIR$/module-06/js/app.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/module-07/js/app.js" />
+        <option value="$PROJECT_DIR$/module-07/index.html" />
+        <option value="$PROJECT_DIR$/module-07/styles/styles.css" />
       </list>
     </option>
   </component>
@@ -94,7 +124,42 @@
             <path>
               <item name="EN.605.787" type="b2602c69:ProjectViewProjectNode" />
               <item name="EN.605.787" type="462c0819:PsiDirectoryNode" />
+              <item name="module-06" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EN.605.787" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EN.605.787" type="462c0819:PsiDirectoryNode" />
+              <item name="module-06" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EN.605.787" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EN.605.787" type="462c0819:PsiDirectoryNode" />
+              <item name="module-06" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EN.605.787" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EN.605.787" type="462c0819:PsiDirectoryNode" />
               <item name="module-07" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EN.605.787" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EN.605.787" type="462c0819:PsiDirectoryNode" />
+              <item name="module-07" type="462c0819:PsiDirectoryNode" />
+              <item name="fonts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EN.605.787" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EN.605.787" type="462c0819:PsiDirectoryNode" />
+              <item name="module-07" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EN.605.787" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EN.605.787" type="462c0819:PsiDirectoryNode" />
+              <item name="module-07" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -105,7 +170,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552879501248" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552879794562" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/module-07" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -115,11 +180,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\chris\Source Code\EN.605.787\module-07\styles" />
+      <recent name="D:\Users\chris\Source Code\EN.605.787\module-07\js" />
       <recent name="D:\Users\chris\Source Code\EN.605.787\module-06" />
       <recent name="D:\Users\chris\Source Code\EN.605.787\module-05\fonts" />
       <recent name="D:\Users\chris\Source Code\EN.605.787\module-05\snippets" />
-      <recent name="D:\Users\chris\Source Code\EN.605.787\module-05" />
-      <recent name="D:\Users\chris\Source Code\EN.605.787\module-04" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -186,12 +251,12 @@
       <workItem from="1551580641999" duration="729000" />
       <workItem from="1551926452269" duration="8000" />
       <workItem from="1551926477571" duration="5828000" />
-      <workItem from="1552879275554" duration="224000" />
+      <workItem from="1552879275554" duration="508000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35643000" />
+    <option name="totallyTimeSpent" value="35927000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -440,13 +505,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module-06/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="129" selection-start-line="16" selection-start-column="129" selection-end-line="16" selection-end-column="129" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/module-06/styles/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -465,6 +523,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="485">
           <caret line="52" column="93" selection-start-line="52" selection-start-column="93" selection-end-line="52" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module-07/js/angular.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module-07/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module-06/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module-07/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module-07/styles/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
         </state>
       </provider>
     </entry>
