@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fc0c7e5-83a7-4f17-8c17-d8eb47918c61" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/module-06/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/module-06/js/app.js" afterDir="false" />
-    </list>
+    <list default="true" id="3fc0c7e5-83a7-4f17-8c17-d8eb47918c61" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -169,8 +167,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551931955021" />
-    <property name="last_opened_file_path" value="D:/Program Files/Git/bin/git.exe" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552879402070" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/module-07" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
@@ -198,11 +196,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.module-06">
+  <component name="RunManager" selected="JavaScript Debug.module-07">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/EN.605.787/index.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="module-03" type="JavascriptDebugType" temporary="true" uri="http://localhost:63342/EN.605.787/module-03/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="module-04" type="JavascriptDebugType" temporary="true" uri="http://localhost:63342/EN.605.787/module-04/index.html" useBuiltInWebServerPort="true">
@@ -214,20 +209,23 @@
     <configuration name="module-06" type="JavascriptDebugType" temporary="true" uri="http://localhost:63342/EN.605.787/module-06/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="module-07" type="JavascriptDebugType" temporary="true" uri="http://localhost:63342/EN.605.787/module-07/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="JavaScript Debug.index.html" />
-      <item itemvalue="JavaScript Debug.module-03" />
       <item itemvalue="JavaScript Debug.module-04" />
       <item itemvalue="JavaScript Debug.module-05" />
       <item itemvalue="JavaScript Debug.module-06" />
+      <item itemvalue="JavaScript Debug.module-07" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.module-07" />
         <item itemvalue="JavaScript Debug.module-06" />
         <item itemvalue="JavaScript Debug.module-05" />
         <item itemvalue="JavaScript Debug.module-04" />
         <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="JavaScript Debug.module-03" />
       </list>
     </recent_temporary>
   </component>
@@ -249,16 +247,15 @@
       <workItem from="1551324230294" duration="6098000" />
       <workItem from="1551580641999" duration="729000" />
       <workItem from="1551926452269" duration="8000" />
-      <workItem from="1551926477571" duration="5470000" />
+      <workItem from="1551926477571" duration="5828000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35061000" />
+    <option name="totallyTimeSpent" value="35419000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19189766" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
