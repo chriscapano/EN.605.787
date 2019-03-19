@@ -45,7 +45,6 @@
         var itemsBought = [];
 
         service.buyItem = function (itemIndex) {
-            console.log("itemIndex: " + itemIndex);
             itemsBought.push(itemsToBuy[itemIndex]);
             itemsToBuy.splice(itemIndex, 1);
         };
