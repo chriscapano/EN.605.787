@@ -13,3 +13,7 @@ li > button {
 button > span {
     color: green;
 }
+
+.input-quantity {
+    width: 60px;
+}

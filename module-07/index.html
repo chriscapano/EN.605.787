@@ -16,7 +16,7 @@
     <div class="col-md-6" ng-controller="ToBuyController as BuyCtrl">
      <h2>To Buy:</h2>
      <ul>
-       <li ng-repeat="item in BuyCtrl.items">Buy {{::item.quantity}} {{::item.name}}
+       <li ng-repeat="item in BuyCtrl.items">Buy <input class="input-sm input-quantity" type="number" ng-model="item.quantity"/> {{::item.name}}
            <button class="btn btn-xs btn-default" ng-click="BuyCtrl.buyItem($index);"><span class="glyphicon glyphicon-ok"></span> Bought</button>
        </li>
      </ul>
@@ -27,7 +27,7 @@
     <div class="col-md-6" ng-controller="AlreadyBoughtController as BoughtCtrl">
      <h2>Already Bought:</h2>
      <ul>
-       <li ng-repeat="item in BoughtCtrl.items">Bought {{::item.quantity}} {{::item.name}}</li>
+       <li ng-repeat="item in BoughtCtrl.items">Bought {{::item.quantity}} {{::item.name}} for total price of {{BoughtCtrl.itemPrice($index) | TripleDollar}}</li>
      </ul>
      <div class="emptyMessage" ng-if="BoughtCtrl.items.length <= 0">Nothing bought yet.</div>
     </div>
