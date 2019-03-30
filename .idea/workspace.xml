@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fc0c7e5-83a7-4f17-8c17-d8eb47918c61" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/module-07/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/module-07/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,21 +13,34 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module-07/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="508">
+              <caret line="53" column="83" selection-start-line="53" selection-start-column="83" selection-end-line="53" selection-end-column="83" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module-07/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
+            <state relative-caret-position="782">
               <caret line="46" column="48" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
             </state>
           </provider>
@@ -84,10 +99,10 @@
         <option value="$PROJECT_DIR$/module-06/styles/styles.css" />
         <option value="$PROJECT_DIR$/module-06/index.html" />
         <option value="$PROJECT_DIR$/module-06/js/app.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/module-07/styles/styles.css" />
         <option value="$PROJECT_DIR$/module-07/index.html" />
         <option value="$PROJECT_DIR$/module-07/js/app.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -113,25 +128,7 @@
             <path>
               <item name="EN.605.787" type="b2602c69:ProjectViewProjectNode" />
               <item name="EN.605.787" type="462c0819:PsiDirectoryNode" />
-              <item name="module-07" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EN.605.787" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EN.605.787" type="462c0819:PsiDirectoryNode" />
-              <item name="module-07" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EN.605.787" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EN.605.787" type="462c0819:PsiDirectoryNode" />
-              <item name="module-07" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EN.605.787" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EN.605.787" type="462c0819:PsiDirectoryNode" />
-              <item name="module-07" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
+              <item name="module-08" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -142,10 +139,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552881804379" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/module-07" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/module-08" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
@@ -173,11 +171,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.module-07">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/EN.605.787/index.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="module-04" type="JavascriptDebugType" temporary="true" uri="http://localhost:63342/EN.605.787/module-04/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="module-05" type="JavascriptDebugType" temporary="true" uri="http://localhost:63342/EN.605.787/module-05/index.html" useBuiltInWebServerPort="true">
@@ -189,20 +184,23 @@
     <configuration name="module-07" type="JavascriptDebugType" temporary="true" uri="http://localhost:63342/EN.605.787/module-07/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="module-08" type="JavascriptDebugType" temporary="true" uri="http://localhost:63342/EN.605.787/module-08/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="JavaScript Debug.index.html" />
-      <item itemvalue="JavaScript Debug.module-04" />
       <item itemvalue="JavaScript Debug.module-05" />
       <item itemvalue="JavaScript Debug.module-06" />
       <item itemvalue="JavaScript Debug.module-07" />
+      <item itemvalue="JavaScript Debug.module-08" />
+      <item itemvalue="JavaScript Debug.index.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.module-08" />
         <item itemvalue="JavaScript Debug.module-07" />
         <item itemvalue="JavaScript Debug.module-06" />
         <item itemvalue="JavaScript Debug.module-05" />
-        <item itemvalue="JavaScript Debug.module-04" />
-        <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -226,18 +224,20 @@
       <workItem from="1551926452269" duration="8000" />
       <workItem from="1551926477571" duration="5828000" />
       <workItem from="1552879275554" duration="2467000" />
-      <workItem from="1552962978357" duration="4424000" />
+      <workItem from="1552962978357" duration="5099000" />
+      <workItem from="1553915764586" duration="10000" />
+      <workItem from="1553915793078" duration="167000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42310000" />
+    <option name="totallyTimeSpent" value="43162000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19616205" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20042644" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -256,7 +256,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3298731" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="11" visible="true" weight="0.2188889" />
+      <window_info anchor="bottom" id="Version Control" order="11" visible="true" weight="0.2188889" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -480,13 +480,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="52" column="93" selection-start-line="52" selection-start-column="93" selection-end-line="52" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/module-07/js/angular.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -511,6 +504,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/module-07/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module-07/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" column="48" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/module-07/styles/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -518,17 +525,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module-07/index.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module-07/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="46" column="48" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
+        <state relative-caret-position="508">
+          <caret line="53" column="83" selection-start-line="53" selection-start-column="83" selection-end-line="53" selection-end-column="83" />
         </state>
       </provider>
     </entry>
