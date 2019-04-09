@@ -9,6 +9,20 @@ input[type="text"] {
   float: left;
   margin-left: 10px;
 }
+
+.narrow-list-section {
+  clear: both;
+  float: left;
+}
+
+.found-item-th {
+  white-space: nowrap;
+}
+
+.found-item-nothing {
+  margin-left: 15px;
+}
+
 .loader {
   display: none;
   margin-left: 5px;

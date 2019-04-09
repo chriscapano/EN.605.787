@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fc0c7e5-83a7-4f17-8c17-d8eb47918c61" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-08/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/module-08/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-08/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/module-08/styles/styles.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,43 +14,42 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module-07/index.html">
+        <entry file="file://$PROJECT_DIR$/module-08/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+            <state relative-caret-position="357">
+              <caret line="21" column="108" selection-start-line="21" selection-start-column="108" selection-end-line="21" selection-end-column="108" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module-08/styles/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module-08/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="56" selection-start-line="56" selection-end-line="56" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
+        <entry file="file://$PROJECT_DIR$/module-08/foundItems.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
-              <caret line="53" column="83" selection-start-line="53" selection-start-column="83" selection-end-line="53" selection-end-column="83" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module-07/js/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="46" column="48" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module-07/styles/styles.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+            <state relative-caret-position="323">
+              <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -62,6 +61,7 @@
       <list>
         <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -72,6 +72,7 @@
       <find>insertP</find>
       <find>navHomeButton</find>
       <find>switchMenuToActive</find>
+      <find>clea</find>
     </findStrings>
     <replaceStrings>
       <replace>sm</replace>
@@ -103,6 +104,11 @@
         <option value="$PROJECT_DIR$/module-07/index.html" />
         <option value="$PROJECT_DIR$/module-07/js/app.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/module-08/founditems.html" />
+        <option value="$PROJECT_DIR$/module-08/index.html" />
+        <option value="$PROJECT_DIR$/module-08/js/app.js" />
+        <option value="$PROJECT_DIR$/module-08/styles/styles.css" />
+        <option value="$PROJECT_DIR$/module-08/foundItems.html" />
       </list>
     </option>
   </component>
@@ -118,6 +124,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -128,22 +135,62 @@
             <path>
               <item name="EN.605.787" type="b2602c69:ProjectViewProjectNode" />
               <item name="EN.605.787" type="462c0819:PsiDirectoryNode" />
+              <item name="module-05" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EN.605.787" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EN.605.787" type="462c0819:PsiDirectoryNode" />
+              <item name="module-05" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EN.605.787" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EN.605.787" type="462c0819:PsiDirectoryNode" />
+              <item name="module-07" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EN.605.787" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EN.605.787" type="462c0819:PsiDirectoryNode" />
               <item name="module-08" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EN.605.787" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EN.605.787" type="462c0819:PsiDirectoryNode" />
+              <item name="module-08" type="462c0819:PsiDirectoryNode" />
+              <item name="fonts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EN.605.787" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EN.605.787" type="462c0819:PsiDirectoryNode" />
+              <item name="module-08" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EN.605.787" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EN.605.787" type="462c0819:PsiDirectoryNode" />
+              <item name="module-08" type="462c0819:PsiDirectoryNode" />
+              <item name="loader" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EN.605.787" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EN.605.787" type="462c0819:PsiDirectoryNode" />
+              <item name="module-08" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552881804379" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/module-08" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/module-08/js" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
@@ -152,11 +199,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\chris\Source Code\EN.605.787\module-08\js" />
       <recent name="D:\Users\chris\Source Code\EN.605.787\module-07\styles" />
       <recent name="D:\Users\chris\Source Code\EN.605.787\module-07\js" />
       <recent name="D:\Users\chris\Source Code\EN.605.787\module-06" />
       <recent name="D:\Users\chris\Source Code\EN.605.787\module-05\fonts" />
-      <recent name="D:\Users\chris\Source Code\EN.605.787\module-05\snippets" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -171,7 +218,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="JavaScript Debug.module-08">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/EN.605.787/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -196,8 +243,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.module-08" />
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.module-07" />
         <item itemvalue="JavaScript Debug.module-06" />
         <item itemvalue="JavaScript Debug.module-05" />
@@ -227,17 +274,18 @@
       <workItem from="1552962978357" duration="5099000" />
       <workItem from="1553915764586" duration="10000" />
       <workItem from="1553915793078" duration="167000" />
+      <workItem from="1554776921447" duration="1525000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43162000" />
+    <option name="totallyTimeSpent" value="51822000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20042644" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20682302" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -412,9 +460,6 @@
     <entry file="file://$PROJECT_DIR$/module-05/images/menu/A/A4.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/module-05/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/module-05/fonts/font-awesome-4.7.0/css/font-awesome.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -497,24 +542,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="1262" column="4" selection-start-line="1262" selection-start-column="4" selection-end-line="1262" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module-07/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/module-07/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="48" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
+        <state relative-caret-position="510">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -529,6 +560,65 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="508">
           <caret line="53" column="83" selection-start-line="53" selection-start-column="83" selection-end-line="53" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module-08/loader/itemsloaderindicator.template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module-05/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="79" column="6" selection-start-line="79" selection-start-column="2" selection-end-line="79" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="1272" column="4" selection-start-line="1272" selection-start-column="4" selection-end-line="1272" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module-05/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module-07/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" selection-start-line="35" selection-end-line="36" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module-08/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="108" selection-start-line="21" selection-start-column="108" selection-end-line="21" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module-08/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module-08/styles/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module-08/foundItems.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
         </state>
       </provider>
     </entry>
