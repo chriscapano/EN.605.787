@@ -1,0 +1,23 @@
+<section>
+    <div class="page-header text-center">
+        <h1>{{::$ctrl.category.name}}</h1>
+        <small>{{::$ctrl.category.special_instructions}}</small>
+    </div>
+    <div ng-repeat="item in $ctrl.items">
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <h3 class="panel-title">
+                    <span class="badge">{{::item.short_name}}</span>
+                    {{::item.name}}
+                    <span class="pull-right">
+                            <span class="badge">{{::item.price_small | currency}}<span ng-if="item.small_portion_name !== null"> / {{::item.small_portion_name}}</span></span>
+                            <span class="badge">{{::item.price_large | currency}}<span ng-if="item.large_portion_name !== null"> / {{::item.large_portion_name}}</span></span>
+                        </span>
+                </h3>
+            </div>
+            <div class="panel-body" ng-if="item.description !== ''">
+                {{::item.description}}
+            </div>
+        </div>
+    </div>
+</section>

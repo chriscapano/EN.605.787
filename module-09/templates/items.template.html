@@ -1,0 +1,10 @@
+<section>
+    <div class="container">
+        <ol class="breadcrumb">
+            <li><a ui-sref="home">Home</a></li>
+            <li><a ui-sref="categories">Categories</a></li>
+            <li class="active">{{::Ctrl.category.name}}</li>
+        </ol>
+        <items category="Ctrl.category" items="Ctrl.menu_items"></items>
+    </div>
+</section>
