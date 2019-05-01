@@ -3,6 +3,8 @@
         <h1>Categories</h1>
     </div>
     <div class="col-md-4 col-sm-6 col-xs-12" ng-repeat="item in $ctrl.items">
-        <button type="button" class="btn btn-info btn-block bottom-pad" ui-sref="items({categoryShortName: item.short_name})">{{::item.name}}</button>
+        <button type="button" class="btn btn-info btn-block bottom-pad" ui-sref="items({categoryShortName: item.short_name})">
+            <span class="badge pull-left">{{::item.short_name}}</span> {{::item.name}}
+        </button>
     </div>
 </section>
