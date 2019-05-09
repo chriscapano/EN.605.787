@@ -1,3 +1,82 @@
 <div class="container">
-    <h2 class="text-center">Sign Up</h2>
+
+    <div class="col-sm-offset-3 col-sm-9">
+        <h2 class="text-center tit">Newsletter Sign Up Form</h2>
+    </div>
+
+    <form class="form-horizontal" name="signUpForm" novalidate>
+
+        <div class="form-group has-feedback" ng-class="{'has-error': signUpForm.firstName.$touched && signUpForm.firstName.$invalid}">
+            <label for="firstName" class="col-sm-3 control-label">First Name</label>
+            <div class="col-sm-9">
+                <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name"
+                       ng-model="ctrl.user.firstName" required ng-minlength="2" ng-maxlength="40">
+                <span ng-if="(signUpForm.firstName.$error.required || signUpForm.firstName.$error.minlength) && signUpForm.firstName.$touched">
+                    First Name must be at least 2 characters long
+                </span>
+                <span ng-if="signUpForm.firstName.$error.maxlength && signUpForm.firstName.$touched">
+                    First Name must not be longer than 40 characters
+                </span>
+            </div>
+        </div>
+
+        <div class="form-group has-feedback" ng-class="{'has-error': signUpForm.lastName.$touched && signUpForm.lastName.$invalid}">
+            <label for="lastName" class="col-sm-3 control-label">Last Name</label>
+            <div class="col-sm-9">
+                <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name"
+                       ng-model="ctrl.user.lastName" required ng-minlength="2" ng-maxlength="40">
+                <span ng-if="(signUpForm.lastName.$error.required || signUpForm.lastName.$error.minlength) && signUpForm.lastName.$touched">
+                    Last Name must be at least 2 characters long
+                </span>
+                <span ng-if="signUpForm.lastName.$error.maxlength && signUpForm.lastName.$touched">
+                    Last Name must not be longer than 40 characters
+                </span>
+            </div>
+        </div>
+
+        <div class="form-group has-feedback" ng-class="{'has-error': signUpForm.email.$touched && signUpForm.email.$invalid}">
+            <label for="email" class="col-sm-3 control-label">Email</label>
+            <div class="col-sm-9">
+                <input type="email" class="form-control" id="email" name="email" placeholder="Email"
+                       ng-model="ctrl.user.email" required>
+                <span ng-if="signUpForm.email.$invalid && signUpForm.email.$touched">
+                    Must be a valid email address (example: john@email.com)
+                </span>
+            </div>
+        </div>
+
+        <div class="form-group has-feedback" ng-class="{'has-error': signUpForm.phone.$touched && signUpForm.phone.$invalid}">
+            <label for="phone" class="col-sm-3 control-label">Phone Number</label>
+            <div class="col-sm-9">
+                <input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone ###-###-####"
+                       ng-model="ctrl.user.phone" required pattern="(\d{3})[-]?(\d{3})[-]?(\d{4})">
+                <span ng-if="signUpForm.phone.$invalid && signUpForm.phone.$touched">
+                    Phone Number must be in the format ###-###-#### (hyphen's are optional)
+                </span>
+            </div>
+        </div>
+
+        <div class="form-group has-feedback" ng-class="{'has-error': ctrl.invalidFavorite}">
+            <label for="favorite" class="col-sm-3 control-label">Favorite Dish</label>
+            <div class="col-sm-9">
+                <input type="text" class="form-control" id="favorite" name="favorite" placeholder="Favorite Dish (A1, B12, etc...)"
+                       ng-model="ctrl.user.favorite">
+                <span ng-if="ctrl.invalidFavorite">
+                    No such menu number exists
+                </span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-sm-offset-3 col-sm-9">
+                <button ng-click="ctrl.processSignUp()" class="btn btn-default" ng-class="signUpForm.$invalid ? 'btn-danger' : 'btn-success'" ng-disabled="signUpForm.$invalid">Sign Up</button>
+            </div>
+        </div>
+
+    </form>
+
+    <div class="col-sm-offset-3 col-sm-9" ng-if="ctrl.success">
+        <div class="alert alert-success" role="alert">Your information has been saved</div>
+    </div>
+
 </div>

@@ -183,3 +183,16 @@ h3.menu-item-title {
     width: 100%;
   }
 }
+
+.has-error .form-control {
+  border-width: thick;
+  border-color: #D43F3A;
+}
+
+.has-error .form-control {
+  background-color: #F8E0E0;
+}
+
+.has-error .control-label {
+  color: #FFFFFF;
+}
