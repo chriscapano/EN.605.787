@@ -60,7 +60,7 @@
             <label for="favorite" class="col-sm-3 control-label">Favorite Dish</label>
             <div class="col-sm-9">
                 <input type="text" class="form-control" id="favorite" name="favorite" placeholder="Favorite Dish (A1, B12, etc...)"
-                       ng-model="ctrl.user.favorite">
+                       ng-model="ctrl.user.favorite" ng-blur="ctrl.blur()">
                 <span ng-if="ctrl.invalidFavorite">
                     No such menu number exists
                 </span>
@@ -69,7 +69,8 @@
 
         <div class="form-group">
             <div class="col-sm-offset-3 col-sm-9">
-                <button ng-click="ctrl.processSignUp()" class="btn btn-default" ng-class="signUpForm.$invalid ? 'btn-danger' : 'btn-success'" ng-disabled="signUpForm.$invalid">Sign Up</button>
+                <button ng-click="ctrl.processSignUp()" class="btn btn-default"
+                        ng-disabled="signUpForm.$invalid || !ctrl.menuItem">Sign Up</button>
             </div>
         </div>
 

@@ -7,20 +7,27 @@ SignUpController.$inject = ['MenuService', 'UserService'];
 function SignUpController(MenuService, UserService) {
   var $ctrl = this;
 
+  $ctrl.menuItem;
+
   $ctrl.processSignUp = function () {
-    if ($ctrl.user.favorite) {
+    UserService.saveUser($ctrl.user);
+    $ctrl.success = true;
+  };
+
+  $ctrl.blur = function () {
+    if ($ctrl.user && $ctrl.user.favorite) {
       MenuService.getMenuItem($ctrl.user.favorite).then(function (result) {
-        UserService.saveUser($ctrl.user);
         $ctrl.invalidFavorite = false;
-        $ctrl.success = true;
+        $ctrl.menuItem = result;
       }, function (error) {
         $ctrl.invalidFavorite = true;
-        $ctrl.success = false;
+        $ctrl.menuItem = null;
       })
     } else {
       $ctrl.invalidFavorite = true;
-      $ctrl.success = false;
+      $ctrl.menuItem = null;
     }
-  }
+  };
+
 }
 })();
