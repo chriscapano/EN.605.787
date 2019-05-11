@@ -1,3 +1,25 @@
 <div class="container">
-    <h2 class="text-center">Info</h2>
+
+    <div class="col-sm-offset-3 col-sm-9" ng-if="!ctrl.user">
+        <h2 class="text-center">Not Signed Up Yet. <a ui-sref="public.signup">Sign up Now!</a></h2>
+    </div>
+
+    <div class="col-sm-offset-3 col-sm-9" ng-if="ctrl.user">
+        <h2 class="text-center">My Information</a></h2>
+        <table class="table table-condensed table-bordered table-responsive">
+            <colgroup>
+                <col class="col-sm-4">
+                <col class="col-sm-8">
+            </colgroup>
+            <tbody>
+            <tr><td>First Name</td><td>{{::ctrl.user.firstName}}</td></tr>
+            <tr><td>Last Name</td><td>{{::ctrl.user.lastName}}</td></tr>
+            <tr><td>Email</td><td>{{::ctrl.user.email}}</td></tr>
+            <tr><td>Phone</td><td>{{::ctrl.user.phone}}</td></tr>
+            </tbody>
+        </table>
+        <h2 class="text-center">Favorite Dish</h2>
+        <menu-item menu-item="ctrl.menuItem" ></menu-item>
+    </div>
+
 </div>

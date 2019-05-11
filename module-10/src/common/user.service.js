@@ -12,6 +12,10 @@ function UserService() {
 
   service.saveUser = function (user) {
     savedUser = user;
+  };
+
+  service.getUser = function () {
+    return savedUser;
   }
 
 }
